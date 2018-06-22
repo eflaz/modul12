@@ -4,6 +4,9 @@ body {
 	color: white;
 	font-family: 'Arial';
 }
+.trigger {
+	cursor: pointer;
+}
 .trigger, .tweet {
 	background-color: transparent;
 	border-radius: 5px;
