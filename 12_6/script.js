@@ -13,9 +13,9 @@ function searchCountries() {
 	.then(showCountriesList);
 }
 
-function showCountriesList(resp){
+function showCountriesList(resp) {
 	countriesList.innerHTML = '';
-	resp.forEach(function(item){
+	resp.forEach(function(item) {
 		var divEl = document.createElement('div');
 		divEl.classList.add("country");
 		divEl.innerHTML = "Name: " + item.name+ '<br> Flag: <img src="' + item.flag + '"> <br> Capital: ' + item.capital;
