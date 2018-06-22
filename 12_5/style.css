@@ -1,0 +1,23 @@
+body {
+	background-color: #54a0ff;
+	text-align: center;
+	color: white;
+	font-family: 'Arial';
+}
+.trigger, .tweet {
+	background-color: transparent;
+	border-radius: 5px;
+	color: white;
+	border: 1px solid white;
+	margin: 10px auto;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	height: 40px;
+	font-family: 'Arial';
+	font-size: 12px;
+}
+i {
+	margin-top: 15px;
+}
